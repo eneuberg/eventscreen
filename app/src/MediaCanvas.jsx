@@ -109,7 +109,7 @@ function MediaItem({ item, onUpdate, onDelete, showTrash, setShowTrash }) {
               alt=""
               style={{
                 position:'absolute', bottom:(CONTROL_BAR-40)/2, left:'50%',
-                width:40,height:40, transform:'translateX(-50%)',
+                width:200,height:40, transform:'translateX(-50%)',
                 pointerEvents:'none',
               }}
             />

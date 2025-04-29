@@ -1,4 +1,7 @@
 # eventscreen
+
+## https://eneuberg.github.io/eventscreen
+
 ## how to use
 - have npm
 - go into ```app```
