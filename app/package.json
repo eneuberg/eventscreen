@@ -1,12 +1,15 @@
 {
     "name": "media-canvas",
     "version": "0.1.0",
+    "homepage": "https://eneuberg.github.io/eventscreen",
     "private": true,
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "lucide-react": "^0.503.0",
